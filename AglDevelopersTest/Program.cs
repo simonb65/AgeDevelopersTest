@@ -35,7 +35,6 @@ namespace AglDevelopersTest
                 {
                     s.AssembliesFromApplicationBaseDirectory();
                     s.LookForRegistries();
-
                 });
             });
     }

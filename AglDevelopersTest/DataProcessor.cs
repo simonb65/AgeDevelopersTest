@@ -8,12 +8,12 @@ namespace AglDevelopersTest
 
     public interface IDataProcessor
     {
-        IEnumerable<(Gender, string[])> ProcessReport(IList<Owner> owners);
+        IEnumerable<(Gender Gender, string[] Names)> ProcessReport(IList<Owner> owners);
     }
 
     public class DataProcessor : IDataProcessor
     {
-        public IEnumerable<(Gender, string[])> ProcessReport(IList<Owner> owners)
+        public IEnumerable<(Gender Gender, string[] Names)> ProcessReport(IList<Owner> owners)
         {
             if (owners == null)
                 throw new ArgumentNullException(nameof(owners));

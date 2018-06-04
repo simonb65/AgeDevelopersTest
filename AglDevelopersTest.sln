@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AglDevelopersTest", "AglDevelopersTest\AglDevelopersTest.csproj", "{4CE5D707-E749-4D37-81B1-BC96356BC194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AglDevelopersTest", "AglDevelopersTest\AglDevelopersTest.csproj", "{4CE5D707-E749-4D37-81B1-BC96356BC194}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickAnswer", "QuickAnswer\QuickAnswer.csproj", "{4BB73722-3DC5-4E46-BCD6-AAEE9EC9E820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickAnswer", "QuickAnswer\QuickAnswer.csproj", "{4BB73722-3DC5-4E46-BCD6-AAEE9EC9E820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{8BD1C95E-DD34-4C57-BD66-7542983EEEE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4BB73722-3DC5-4E46-BCD6-AAEE9EC9E820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BB73722-3DC5-4E46-BCD6-AAEE9EC9E820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BB73722-3DC5-4E46-BCD6-AAEE9EC9E820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD1C95E-DD34-4C57-BD66-7542983EEEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD1C95E-DD34-4C57-BD66-7542983EEEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD1C95E-DD34-4C57-BD66-7542983EEEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD1C95E-DD34-4C57-BD66-7542983EEEE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
