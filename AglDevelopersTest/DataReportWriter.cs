@@ -16,7 +16,7 @@ namespace AglDevelopersTest
             foreach (var (gender, names) in report.OrderByDescending(x => x.gender))
             {
                 Console.WriteLine(gender);
-                foreach (var name in names.OrderBy(x => x))
+                foreach (var name in names.OrderBy(x => x, StringComparer.CurrentCultureIgnoreCase))
                     Console.WriteLine("  - " + name);
             }
         }

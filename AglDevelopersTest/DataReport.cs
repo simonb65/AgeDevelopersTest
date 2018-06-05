@@ -26,6 +26,7 @@ namespace AglDevelopersTest
             _dataProcessor = dataProcessor;
             _dataReportWriter = dataReportWriter;
         }
+
         public async Task RunReportAsync()
         {
             var data = await _dataProvider.GetData();
@@ -34,7 +35,5 @@ namespace AglDevelopersTest
 
             _dataReportWriter.WriteReport(report);
         }
-
-
     }
 }

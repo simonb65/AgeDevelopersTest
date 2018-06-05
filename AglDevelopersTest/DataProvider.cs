@@ -1,14 +1,12 @@
-﻿using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Configuration;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
 
 namespace AglDevelopersTest
 {
-    // 
+    // Load data from Configured source
     public interface IDataProvider
     {
         Task<string> GetData();

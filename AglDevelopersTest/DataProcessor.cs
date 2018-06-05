@@ -23,7 +23,7 @@ namespace AglDevelopersTest
             var reportData = owners
                 .SelectMany(x => (x.Pets ?? noPets)
                     .Where(p => p.Type == PetType.Cat)          // Only want Cats
-                    .Select(p => new { x.Gender, p.Name }))     // Project to Owner Gender and Pet Name (Could also tak Owner/Pet ...)
+                    .Select(p => new { x.Gender, p.Name }))     // Project to Owner Gender and Pet Name (Could also take Owner/Pet ...)
                 .GroupBy(x => x.Gender, x => x.Name)            // Group by Owners Gender taking Pet Name
                 .Select(x => (x.Key, x.ToArray()));             
 
