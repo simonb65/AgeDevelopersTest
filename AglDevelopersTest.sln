@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AglDevelopersTest", "AglDev
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickAnswer", "QuickAnswer\QuickAnswer.csproj", "{4BB73722-3DC5-4E46-BCD6-AAEE9EC9E820}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AglDevelopersTest.Tests", "AglDevelopersTest.Tests\AglDevelopersTest.Tests.csproj", "{8BD1C95E-DD34-4C57-BD66-7542983EEEE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AglDevelopersTest.Tests", "AglDevelopersTest.Tests\AglDevelopersTest.Tests.csproj", "{8BD1C95E-DD34-4C57-BD66-7542983EEEE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9965208-ADB5-4C4B-AD77-D1114EE94861}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
