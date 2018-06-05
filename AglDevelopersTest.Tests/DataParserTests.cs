@@ -1,20 +1,19 @@
-﻿using System;
-using NUnit.Framework;
+using System;
 using AglDevelopersTest;
+using Xunit;
 
-namespace AglDevelopersTest.Tests
+namespace XUnitTestProject1
 {
-    [TestFixture]
     public class DataParserTests
     {
-        [Test]
-        [TestCase(null)]
-        [TestCase("  ")]
+        [Theory]
+        [InlineData(null)]
+        [InlineData("  ")]
         public void ParseData_WithEmptyData_Throws(string data)
         {
             var dataParser = new DataParser();
 
-            //dataParser.
+            Assert.Throws<ArgumentNullException>(() => dataParser.ParseData(data));
         }
     }
 }
